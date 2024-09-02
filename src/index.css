@@ -1,0 +1,132 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* body{
+    background: linear-gradient(to right, #27272a, #09090b);
+} */
+
+@media screen and (min-width:1280px){
+    
+
+    .navbar {
+        position: fixed;
+        background: transparent;
+        transition: background-color 0.3s ease;
+        width: 70%;
+
+      }
+    
+      .navbar-scrolled {
+        background-color: rgb(43, 63, 93);
+        top: 0; /* Cambia esto al color que prefieras */
+        color: white;
+      }  
+      
+}
+
+
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+*{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+
+
+  .navbar-scrolled {
+    
+    top: 0; /* Cambia esto al color que prefieras */
+    color: white;
+  }
+
+.border-multicolor {
+    border: 2px solid #3B82F6;
+    /* border-image: linear-gradient(45deg, red, yellow, green, blue, purple) 1; */
+    padding: .6rem 1rem;
+}
+
+.border-multicolor:hover {}
+
+.cont-bg {}
+
+.name {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+
+}
+
+.ftd {
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    background: linear-gradient(to right, rgb(131, 232, 255), rgb(68, 183, 255));
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.description{
+    font-family: "Poppins", sans-serif;
+}
+
+.about-me-title{
+    font-family: "Inter", sans-serif;
+}
+
+.about-me{
+    font-family: "Poppins", sans-serif;
+}
+
+.gtkm{
+    background: linear-gradient(to right, rgb(131, 232, 255), rgb(68, 183, 255));
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.skills{
+    font-family: "Poppins", sans-serif;
+}
+
+.poppins{
+    font-family: "Poppins", sans-serif;
+}
+
+.inter{
+    font-family: "Inter", sans-serif;
+}
+
+.bg-projects{
+    background: linear-gradient(to right, rgb(131, 232, 255), rgb(68, 183, 255));
+    -webkit-background-clip: text;
+    
+}
+
+.porcentaje{
+    transition: all .5s;
+}
+
+.cont-tech:hover .porcentaje{
+    background-color: rgb(53, 53, 53);
+    color: aliceblue;
+}
+
+#cont-project{
+    overflow: hidden;
+}
+
+#cont-project:hover .img-project{
+    transform:scale(1.1);
+}
+
+.img-project{
+    transition: .5s ease;
+    transform-origin: bottom center;
+}
+
+#nav{
+    z-index: 100;
+}
