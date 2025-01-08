@@ -5,6 +5,8 @@ import screenTodo from "../assets/todo-screen.png";
 import screenBurguer from "../assets/burguer-screen.png";
 import OpenInNewIcon from '@mui/icons-material/OpenInNew';
 import screenRepo from '../assets/Ecom-screen.png'
+import screenTask from '../assets/screen-task.png'
+import screenSubject from '../assets/screen-subject.png'
 
 const SectionProjects = () => {
   return (
@@ -65,6 +67,7 @@ const SectionProjects = () => {
           </div>
         </div>
 
+      
 
 
 
@@ -123,6 +126,49 @@ const SectionProjects = () => {
             </div>
             <div className="text-white w-1/4 flex items-end justify-end m-2">
                 <a target='_blank' href="https://jereq8.github.io/CapitalBurguer/"><OpenInNewIcon/></a>
+            </div>
+          </div>
+        </div>
+
+        <div id="cont-project" className="bg-projects w-80 border-2 border-gray-700 rounded-lg m-3 h-auto">
+          <img className="img-project rounded-t-lg h-2/5 w-full object-cover" src={screenTask} alt="" />
+          <div className="flex  h-3/5">
+            <div className=" w-3/4 pl-2">
+              <h4 className="skills text-gray-400">Task Manager</h4>
+              <p className="skills text-sm text-gray-400 mb-2">Application for reading, creating, editing, filtering and deleting tasks  </p>
+              <div className="flex flex-wrap text-white">
+                <label className="bg-green-900 py-1 px-3 rounded-2xl skills font-normal text-sm mr-3 my-1">Node</label>
+                <label className="bg-green-900 py-1 px-3 rounded-2xl skills font-normal text-sm mr-3 my-1">Express</label> 
+                <label className="bg-green-900 py-1 px-3 rounded-2xl skills font-normal text-sm mr-3 my-1">MongoDB</label> 
+                <label className="bg-green-900 py-1 px-3 rounded-2xl skills font-normal text-sm mr-3 my-1">React</label> 
+                
+                
+              </div>
+            </div>
+            <div className="text-white w-1/4 flex items-end justify-end m-2 h-2/2">
+                <a target='_blank' href="https://task-manager-seven-tawny.vercel.app/"><OpenInNewIcon/></a>
+            </div>
+          </div>
+        </div>
+
+        <div id="cont-project" className="bg-projects w-80 border-2 border-gray-700 rounded-lg m-3 h-auto">
+          <img className="img-project rounded-t-lg h-2/5 w-full object-cover" src={screenSubject} alt="" />
+          <div className="flex  h-3/5">
+            <div className=" w-3/4 pl-2">
+              <h4 className="skills text-gray-400">Subjects Manager</h4>
+              <p className="skills text-sm text-gray-400 mb-2">Application to create and visualize subjects by course and year</p>
+              <div className="flex flex-wrap text-white">
+                <label className="bg-green-900 py-1 px-3 rounded-2xl skills font-normal text-sm mr-3 my-1">Node</label>
+                <label className="bg-green-900 py-1 px-3 rounded-2xl skills font-normal text-sm mr-3 my-1">Express</label> 
+                <label className="bg-green-900 py-1 px-3 rounded-2xl skills font-normal text-sm mr-3 my-1">MySQL</label> 
+                <label className="bg-green-900 py-1 px-3 rounded-2xl skills font-normal text-sm mr-3 my-1">Vue</label>
+                <label className="bg-green-900 py-1 px-3 rounded-2xl skills font-normal text-sm mr-3 my-1">Pinia</label>
+                
+                
+              </div>
+            </div>
+            <div className="text-white w-1/4 flex items-end justify-end m-2 h-2/2">
+                <a target='_blank' href="https://task-manager-seven-tawny.vercel.app/"><OpenInNewIcon/></a>
             </div>
           </div>
         </div>
